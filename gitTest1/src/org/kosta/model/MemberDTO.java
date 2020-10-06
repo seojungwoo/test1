@@ -1,6 +1,7 @@
 package org.kosta.model;
 
 /* VO : Value Object  
+ * DTO : Data Transfer Object
  */
 public class MemberDTO {
 	private String id;
