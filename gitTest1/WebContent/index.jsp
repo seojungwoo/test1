@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>step1</title>
 </head>
-<body><!--  -->
+<body>
 <form action="response.jsp">
 남<input type="radio" name="gender" value="male"><br>
 여<input type="radio" name="gender" value="female"><br>
