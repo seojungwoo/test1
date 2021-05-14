@@ -8,6 +8,13 @@
 <title>step1</title>
 </head>
 <body>
-step1 step2 step3 step4 step5
+<form action="response.jsp">
+남<input type="radio" name="gender" value="male"><br>
+여<input type="radio" name="gender" value="female"><br>
+<input type="submit" value="전송">
+</form>
+<script>
+	document.getElementsByName("gender")[0].checked=true;	
+</script>
 </body>
 </html>
